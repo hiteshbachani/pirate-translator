@@ -26,9 +26,8 @@ body h1 {
 
 .image {
     display: block;
-    max-width: 80%;
     margin: auto;
-    height: 50vh;
+    height: 25vh;
   
 }
 
