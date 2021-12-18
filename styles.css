@@ -9,11 +9,12 @@ body {
 :root {
     --black: #334155;
     --primary-color: #f97316;
+    --text-color: white;
 }
 
 body h1 {
     text-align: center;
-    color: var(--black);
+    color: var(--text-color);
 }
 
 .header {
@@ -39,7 +40,7 @@ body h1 {
     margin: 1rem auto;
     border-style: none;
     background-color: var(--primary-color);
-    color: var(--black);
+    color: var(--text-color);
     font-size: larger;
     font-weight: bold;
 }
@@ -68,15 +69,16 @@ body h1 {
     font-size: 30px;
     margin-top: 8rem;
     padding-top: 1rem;
-    color: var(--black);
+    color: var(--text-color);
     font-weight: bold;
 }
 
 
 .footer p{
     text-align: center;
-    font-size: 15px;
-    max-width: 30%;
+    font-size: 17px;
+    max-width: 25%;
     margin: 0.5rem auto;
     padding: 0rem 1rem;
+    font-weight: normal;
 }
