@@ -24,6 +24,18 @@ body h1 {
     padding: 1rem 0rem;
 }
 
+.header h3 {
+    text-align: right;
+    padding-right: 2rem;
+    color: var(--text-color);
+}
+
+.link {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: normal;
+}
+
 .image {
     display: block;
     margin: auto;

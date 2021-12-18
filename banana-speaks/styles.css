@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body { font-family: 'Open Sans', sans-serif;
+    margin: 0%;
+
+}
+
+:root {
+    --primary-color: #fde047;
+    --grey: #d4d4d8;
+    --black: #27272a;
+}
+
+
+.navigation {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 5rem;
+    font-size: xx-large;
+     color: var(--black);
+     font-weight: bold; 
+}
+
+
+
+.container {
+    width: 75%;
+    display: block;
+    text-align: center;
+    margin: auto;
+    height: 20vh;
+    
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    width: 20vh;
+    height: 6vh;
+    font-size: larger;
+    color: var(--black);
+    background-color: var(--primary-color);
+    border: none;
+    font-weight: bold;
+
+}
+
+
+.outputbox-container {
+    display: block;
+    text-align: center;
+    border: 1px solid var(--black);
+    color: var(--black);
+    margin-bottom: 10rem;
+
+}
+
+.output-text {
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 1rem 0rem;
+    font-size: large;
+    color: var(--black);
+}
+
+
+.footer {
+    background-color: var(--primary-color);
+    height: 20vh;
+    text-align: center;
+    color: var(--black);
+    font-size: xx-large;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.footer p {
+    padding-top: 1rem;
+    margin: auto;
+    font-weight: normal;
+    font-size: large;
+    display: block;
+    max-width: 600px;
+    color: var(--black);
+    
+}
