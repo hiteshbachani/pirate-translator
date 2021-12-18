@@ -22,7 +22,14 @@ body h1 {
     min-height: 7vh;
     font-size: larger;
     padding: 1rem 0rem;
-    margin-bottom: 4rem;
+}
+
+.image {
+    display: block;
+    max-width: 80%;
+    margin: auto;
+    height: 50vh;
+  
 }
 
 .text {
@@ -30,6 +37,7 @@ body h1 {
     width: 70%;
     height: 20vh;
     margin: auto;
+    margin-top: 2rem;
     text-align: center;
 }
 
@@ -37,7 +45,7 @@ body h1 {
     display: block;
     width: 15%;
     height: 5vh;
-    margin: 1rem auto;
+    margin: auto;
     border-style: none;
     background-color: var(--primary-color);
     color: var(--text-color);
@@ -56,9 +64,9 @@ body h1 {
     border: 1px solid var(--black);
     max-width: 70%;
     height: 20vh;
-    margin: auto;
+    margin:auto;
     margin-top: 1rem;
-    text-align: center;
+   text-align: center;
 }
 
 
