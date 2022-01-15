@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+    display: block;
+    margin: 0rem;
+}
+
+:root {
+    --black: #334155;
+    --primary-color: #f97316;
+    --text-color: white;
+}
+
+body h1 {
+    text-align: center;
+    color: var(--text-color);
+}
+
+.header {
+    background-color: var(--primary-color);
+    min-height: 7vh;
+    font-size: larger;
+    padding: 1rem 0rem;
+}
+
+.header h3 {
+    text-align: right;
+    padding-right: 2rem;
+    color: var(--text-color);
+}
+
+.link {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: normal;
+}
+
+.image {
+    display: block;
+    margin: auto;
+    height: 25vh;
+
+}
+
+.text {
+    display: block;
+    width: 70%;
+    height: 15vh;
+    margin: auto;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.button {
+    display: block;
+    width: 18%;
+    text-align: center;
+    height: 5vh;
+    margin: auto;
+    border-style: none;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    font-size: larger;
+    font-weight: bold;
+}
+
+.divText {
+    text-align: center;
+    font-size: 18px;
+    color: var(black);
+}
+
+.output {
+    display: block;
+    border: 1px solid var(--black);
+    max-width: 70%;
+    height: 18vh;
+    margin: auto;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+
+.footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    height: 20vh;
+    font-size: 30px;
+    margin-top: 8rem;
+    padding-top: 1rem;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+
+.footer p {
+    text-align: center;
+    font-size: 17px;
+    max-width: 25%;
+    margin: 0.5rem auto;
+    padding: 0rem 1rem;
+    font-weight: normal;
+}
